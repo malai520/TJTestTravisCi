@@ -7,6 +7,6 @@ env:
     - LANG=en_US.UTF-8
 
 script: 
-  - xcodebuild -project TJTestTravisCi/TJTestTravisCi.xcodeproj -scheme TJTestTravisCiTests build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+  - xcodebuild -project TJTestTravisCi/TJTestTravisCi.xcodeproj -scheme TJTestTravisCiTests build test -destination 'platform=iOS Simulator,name=iPhone 7 Plus'|xcpretty GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 after_success:
   - bash <(curl -s https://codecov.io/bash)
