@@ -9,28 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A024EE811F8CA84F0031869F"
                BuildableName = "TJTestTravisCi.app"
                BlueprintName = "TJTestTravisCi"
-               ReferencedContainer = "container:TJTestTravisCi.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A024EE9E1F8CA87E0031869F"
-               BuildableName = "TJTestTravisCiTests.xctest"
-               BlueprintName = "TJTestTravisCiTests"
                ReferencedContainer = "container:TJTestTravisCi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,16 +29,6 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A024EE9E1F8CA87E0031869F"
-               BuildableName = "TJTestTravisCiTests.xctest"
-               BlueprintName = "TJTestTravisCiTests"
-               ReferencedContainer = "container:TJTestTravisCi.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -95,6 +71,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A024EE811F8CA84F0031869F"
+            BuildableName = "TJTestTravisCi.app"
+            BlueprintName = "TJTestTravisCi"
+            ReferencedContainer = "container:TJTestTravisCi.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
