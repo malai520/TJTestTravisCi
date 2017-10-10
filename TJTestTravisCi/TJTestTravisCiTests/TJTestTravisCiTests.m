@@ -7,7 +7,6 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ViewController.h"
 
 @interface TJTestTravisCiTests : XCTestCase
 
@@ -17,10 +16,7 @@
 
 - (void)setUp {
     [super setUp];
-    
-    ViewController *vc = [ViewController new];
-    
-    XCTAssertNotNil(vc);
+    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {

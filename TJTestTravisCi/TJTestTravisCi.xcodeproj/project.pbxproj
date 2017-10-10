@@ -13,11 +13,11 @@
 		A024EE8F1F8CA84F0031869F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A024EE8E1F8CA84F0031869F /* Assets.xcassets */; };
 		A024EE921F8CA84F0031869F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A024EE901F8CA84F0031869F /* LaunchScreen.storyboard */; };
 		A024EE951F8CA84F0031869F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A024EE941F8CA84F0031869F /* main.m */; };
-		A024EEA21F8CA87E0031869F /* TJTestTravisCiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A024EEA11F8CA87E0031869F /* TJTestTravisCiTests.m */; };
+		A062324D1F8CB67B00B2BA3A /* TJTestTravisCiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A062324C1F8CB67B00B2BA3A /* TJTestTravisCiTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A024EEA41F8CA87E0031869F /* PBXContainerItemProxy */ = {
+		A062324F1F8CB67B00B2BA3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A024EE7A1F8CA84F0031869F /* Project object */;
 			proxyType = 1;
@@ -37,9 +37,9 @@
 		A024EE911F8CA84F0031869F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A024EE931F8CA84F0031869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A024EE941F8CA84F0031869F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A024EE9F1F8CA87E0031869F /* TJTestTravisCiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJTestTravisCiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A024EEA11F8CA87E0031869F /* TJTestTravisCiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJTestTravisCiTests.m; sourceTree = "<group>"; };
-		A024EEA31F8CA87E0031869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A062324A1F8CB67B00B2BA3A /* TJTestTravisCiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJTestTravisCiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A062324C1F8CB67B00B2BA3A /* TJTestTravisCiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJTestTravisCiTests.m; sourceTree = "<group>"; };
+		A062324E1F8CB67B00B2BA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A024EE9C1F8CA87E0031869F /* Frameworks */ = {
+		A06232471F8CB67B00B2BA3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A024EE841F8CA84F0031869F /* TJTestTravisCi */,
-				A024EEA01F8CA87E0031869F /* TJTestTravisCiTests */,
+				A062324B1F8CB67B00B2BA3A /* TJTestTravisCiTests */,
 				A024EE831F8CA84F0031869F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A024EE821F8CA84F0031869F /* TJTestTravisCi.app */,
-				A024EE9F1F8CA87E0031869F /* TJTestTravisCiTests.xctest */,
+				A062324A1F8CB67B00B2BA3A /* TJTestTravisCiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,11 +94,11 @@
 			path = TJTestTravisCi;
 			sourceTree = "<group>";
 		};
-		A024EEA01F8CA87E0031869F /* TJTestTravisCiTests */ = {
+		A062324B1F8CB67B00B2BA3A /* TJTestTravisCiTests */ = {
 			isa = PBXGroup;
 			children = (
-				A024EEA11F8CA87E0031869F /* TJTestTravisCiTests.m */,
-				A024EEA31F8CA87E0031869F /* Info.plist */,
+				A062324C1F8CB67B00B2BA3A /* TJTestTravisCiTests.m */,
+				A062324E1F8CB67B00B2BA3A /* Info.plist */,
 			);
 			path = TJTestTravisCiTests;
 			sourceTree = "<group>";
@@ -123,22 +123,22 @@
 			productReference = A024EE821F8CA84F0031869F /* TJTestTravisCi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A024EE9E1F8CA87E0031869F /* TJTestTravisCiTests */ = {
+		A06232491F8CB67B00B2BA3A /* TJTestTravisCiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A024EEA61F8CA87E0031869F /* Build configuration list for PBXNativeTarget "TJTestTravisCiTests" */;
+			buildConfigurationList = A06232511F8CB67B00B2BA3A /* Build configuration list for PBXNativeTarget "TJTestTravisCiTests" */;
 			buildPhases = (
-				A024EE9B1F8CA87E0031869F /* Sources */,
-				A024EE9C1F8CA87E0031869F /* Frameworks */,
-				A024EE9D1F8CA87E0031869F /* Resources */,
+				A06232461F8CB67B00B2BA3A /* Sources */,
+				A06232471F8CB67B00B2BA3A /* Frameworks */,
+				A06232481F8CB67B00B2BA3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A024EEA51F8CA87E0031869F /* PBXTargetDependency */,
+				A06232501F8CB67B00B2BA3A /* PBXTargetDependency */,
 			);
 			name = TJTestTravisCiTests;
 			productName = TJTestTravisCiTests;
-			productReference = A024EE9F1F8CA87E0031869F /* TJTestTravisCiTests.xctest */;
+			productReference = A062324A1F8CB67B00B2BA3A /* TJTestTravisCiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					A024EE9E1F8CA87E0031869F = {
+					A06232491F8CB67B00B2BA3A = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A024EE811F8CA84F0031869F;
@@ -175,7 +175,7 @@
 			projectRoot = "";
 			targets = (
 				A024EE811F8CA84F0031869F /* TJTestTravisCi */,
-				A024EE9E1F8CA87E0031869F /* TJTestTravisCiTests */,
+				A06232491F8CB67B00B2BA3A /* TJTestTravisCiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A024EE9D1F8CA87E0031869F /* Resources */ = {
+		A06232481F8CB67B00B2BA3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,21 +211,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A024EE9B1F8CA87E0031869F /* Sources */ = {
+		A06232461F8CB67B00B2BA3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A024EEA21F8CA87E0031869F /* TJTestTravisCiTests.m in Sources */,
+				A062324D1F8CB67B00B2BA3A /* TJTestTravisCiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A024EEA51F8CA87E0031869F /* PBXTargetDependency */ = {
+		A06232501F8CB67B00B2BA3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A024EE811F8CA84F0031869F /* TJTestTravisCi */;
-			targetProxy = A024EEA41F8CA87E0031869F /* PBXContainerItemProxy */;
+			targetProxy = A062324F1F8CB67B00B2BA3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestTravisCi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.TJTestTravisCi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestTravisCi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.TJTestTravisCi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,13 +383,13 @@
 			};
 			name = Release;
 		};
-		A024EEA71F8CA87E0031869F /* Debug */ = {
+		A06232521F8CB67B00B2BA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestTravisCiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.TJTestTravisCiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -396,13 +398,13 @@
 			};
 			name = Debug;
 		};
-		A024EEA81F8CA87E0031869F /* Release */ = {
+		A06232531F8CB67B00B2BA3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestTravisCiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.TJTestTravisCiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,11 +434,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A024EEA61F8CA87E0031869F /* Build configuration list for PBXNativeTarget "TJTestTravisCiTests" */ = {
+		A06232511F8CB67B00B2BA3A /* Build configuration list for PBXNativeTarget "TJTestTravisCiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A024EEA71F8CA87E0031869F /* Debug */,
-				A024EEA81F8CA87E0031869F /* Release */,
+				A06232521F8CB67B00B2BA3A /* Debug */,
+				A06232531F8CB67B00B2BA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
