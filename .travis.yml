@@ -9,4 +9,4 @@ env:
 script: 
   - xcodebuild clean build -project TJTestTravisCi/TJTestTravisCi.xcodeproj -scheme 'TJTestTravisCiTests' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Release  GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | tee xcodebuild.log | xcpretty
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t :4f0d6219-a215-43e2-9032-71616c07dabd
